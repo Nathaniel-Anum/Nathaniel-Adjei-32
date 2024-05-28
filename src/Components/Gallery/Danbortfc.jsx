@@ -26,14 +26,21 @@ import { ArrowLeftOutlined } from "@ant-design/icons";
 const Danbortfc = () => {
   return (
     <div>
+      <div className="trying">
+        <Link to='/gallery'>
+          <ArrowLeftOutlined/>
+        </Link>
+        </div>
       <div className="arrow-holder">
-        <div className="arrow2">
+        {/* <div className="arrow2">
           <Link to="/gallery ">
             <div className="ppp">
               <ArrowLeftOutlined />
             </div>
           </Link>
-        </div>
+        </div> */}
+
+        
       </div>
       <h2 className="gallery">Danbort FC</h2>
       <div className="dbbb">
