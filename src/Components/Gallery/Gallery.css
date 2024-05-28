@@ -1,0 +1,52 @@
+.pp {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 3px 0;
+}
+.gallery {
+  color: #edce37;
+  font-size: 25px;
+  font-weight: 680;
+  text-align: center;
+  padding: 20px;
+}
+
+.test2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
+}
+.gallery{
+  
+  font-size: 32px;
+}
+.text2holder {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.profile:hover {
+  transition-duration: 500ms;
+  --transform-scale-x: 1.1;
+  --transform-scale-y: 1.1;
+}
+
+.gallery-component {
+  padding: 10px 0;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .test2{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .test2{
+    grid-template-columns: 1fr;
+  }
+}

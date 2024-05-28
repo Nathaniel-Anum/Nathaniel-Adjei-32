@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap");
+
+* {
+  margin: 0;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(30, 30, 30);
+  color: white;
+  max-width: 100%;
+}
+Link {
+  color: white;
+}
+.dbbb {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-holder {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.danbort-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pic-holder2 {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.danbort-pic2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.danbort-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.ppp {
+  color: white;
+  font-size: 32px;
+  width: 0px;
+}
+
+.arrow-holder {
+  text-align: center;
+  /* border-radius: 100%; */
+  padding: 0px 365px;
+  /* border: 3px solid white; */
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .danbort-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .danbort-holder2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .danbort-holder {
+    grid-template-columns: 1fr;
+  }
+
+  .danbort-holder2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+  }
+}
