@@ -11,13 +11,16 @@ import first9 from "../../assets/U23 Afcon 2023/9.jpeg";
 import first10 from "../../assets/U23 Afcon 2023/10.jpeg";
 import first11 from "../../assets/U23 Afcon 2023/11.jpeg";
 import first12 from "../../assets/U23 Afcon 2023/12.jpeg";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const U23AFCON2023 = () => {
-    return (
-        <div>
-      <Link to="/gallery ">
-        <p className="ppp">Back to Gallery</p>
-      </Link>
+  return (
+    <div>
+      <div className="trying">
+        <Link to="/gallery">
+          <ArrowLeftOutlined />
+        </Link>
+      </div>
       <h2 className="gallery"> U23 AFCON 2023</h2>
       <div className="dbbb">
         <div className="danbort-holder">
@@ -60,7 +63,7 @@ const U23AFCON2023 = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default U23AFCON2023;

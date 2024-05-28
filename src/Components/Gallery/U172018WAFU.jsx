@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import first from "../../assets/U17 2018 Wafu Tournament/1.jpeg";
 import first2 from "../../assets/U17 2018 Wafu Tournament/2.jpeg";
 import first3 from "../../assets/U17 2018 Wafu Tournament/3.jpeg";
@@ -18,13 +18,16 @@ import first15 from "../../assets/U17 2018 Wafu Tournament/15.jpeg";
 import first16 from "../../assets/U17 2018 Wafu Tournament/16.jpeg";
 import first17 from "../../assets/U17 2018 Wafu Tournament/17.jpeg";
 import first18 from "../../assets/U17 2018 Wafu Tournament/18.jpeg";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const U172018WAFU = () => {
   return (
     <div>
-      <Link to="/gallery ">
-        <p className="ppp">Back to Gallery</p>
-      </Link>
+      <div className="trying">
+        <Link to="/gallery">
+          <ArrowLeftOutlined />
+        </Link>
+      </div>
       <h2 className="gallery">U17 2018 WAFU Tournament</h2>
       <div className="dbbb">
         <div className="danbort-holder">

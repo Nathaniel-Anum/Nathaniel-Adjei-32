@@ -12,13 +12,16 @@ import first9 from "../../assets/U20 Afcon2021/9.jpeg";
 import first10 from "../../assets/U20 Afcon2021/10.jpeg";
 import first11 from "../../assets/U20 Afcon2021/11.jpeg";
 import first12 from "../../assets/U20 Afcon2021/12.jpeg";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const U20AFCON2021 = () => {
   return (
     <div>
-      <Link to="/gallery ">
-        <p className="ppp">Back to Gallery</p>
-      </Link>
+      <div className="trying">
+        <Link to="/gallery">
+          <ArrowLeftOutlined />
+        </Link>
+      </div>
       <h2 className="gallery"> U20 AFCON 2021</h2>
       <div className="dbbb">
         <div className="danbort-holder">

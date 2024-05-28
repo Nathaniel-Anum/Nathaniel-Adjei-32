@@ -14,14 +14,16 @@ import first12 from "../../assets/Hammarby TFF/12.jpeg";
 import first13 from "../../assets/Hammarby TFF/13.jpeg";
 import first14 from "../../assets/Hammarby TFF/14.jpeg";
 import first15 from "../../assets/Hammarby TFF/15.jpeg";
-
+import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const HammarbyTFF = () => {
   return (
     <div>
-      <Link to="/gallery ">
-        <p className="ppp">Back to Gallery</p>
-      </Link>
+      <div className="trying">
+        <Link to="/gallery">
+          <ArrowLeftOutlined />
+        </Link>
+      </div>
       <h2 className="gallery"> Hammarby TFF</h2>
       <div className="dbbb">
         <div className="danbort-holder">

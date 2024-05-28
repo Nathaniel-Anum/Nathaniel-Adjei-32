@@ -12,13 +12,16 @@ import first9 from "../../assets/U20 Wafu 2020/9.jpeg";
 import first10 from "../../assets/U20 Wafu 2020/10.jpeg";
 import first11 from "../../assets/U20 Wafu 2020/11.jpeg";
 import first12 from "../../assets/U20 Wafu 2020/12.jpeg";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const U20WAFU2020 = () => {
   return (
     <div>
-      <Link to="/gallery ">
-        <p className="ppp">Back to Gallery</p>
-      </Link>
+      <div className="trying">
+        <Link to="/gallery">
+          <ArrowLeftOutlined />
+        </Link>
+      </div>
       <h2 className="gallery"> U20 WAFU 2020</h2>
       <div className="dbbb">
         <div className="danbort-holder">

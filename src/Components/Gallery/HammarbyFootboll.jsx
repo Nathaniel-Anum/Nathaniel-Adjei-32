@@ -15,13 +15,16 @@ import first12 from "../../assets/Hammarby Fotboll/12.jpeg";
 import first13 from "../../assets/Hammarby Fotboll/13.jpeg";
 import first14 from "../../assets/Hammarby Fotboll/14.jpeg";
 import first15 from "../../assets/Hammarby Fotboll/15.jpeg";
+import { ArrowLeftOutlined } from '@ant-design/icons';
 
 const HammarbyFootboll = () => {
     return (
         <div>
-        <Link to="/gallery ">
-          <p className="ppp">Back to Gallery</p>
+         <div className="trying">
+        <Link to='/gallery'>
+          <ArrowLeftOutlined/>
         </Link>
+        </div>
         <h2 className="gallery"> Hammarby Fotboll</h2>
         <div className="dbbb">
           <div className="danbort-holder">
