@@ -18,7 +18,7 @@ const About = () => {
           <p className="gird1">Foot: </p>
           <p className="grid2">Right</p>
           <p className="gird1">Current Club: </p>
-          <p className="grid2">FC Lorient</p>
+          <p className="grid2">FC Lorient (on loan from Hammarby IF) </p>
           <p className="gird1">Current International: </p>
           <p className="grid2">Ghana U23</p>
         </div>
